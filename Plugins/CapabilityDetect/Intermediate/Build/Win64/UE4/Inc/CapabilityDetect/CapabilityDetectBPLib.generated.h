@@ -1,11 +1,11 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef CAPABILITYDETECT_CapabilityDetectBPLib_generated_h
@@ -13,15 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CAPABILITYDETECT_CapabilityDetectBPLib_generated_h
 
-#define CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execComputePerfIndex) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(float*)Z_Param__Result=UCapabilityDetectBPLib::ComputePerfIndex(); \
-		P_NATIVE_END; \
-	} \
+#define AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_SPARSE_DATA
+#define AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execComputeCPUPerfIndex) \
 	{ \
@@ -184,15 +177,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execComputePerfIndex) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(float*)Z_Param__Result=UCapabilityDetectBPLib::ComputePerfIndex(); \
-		P_NATIVE_END; \
-	} \
+#define AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execComputeCPUPerfIndex) \
 	{ \
@@ -355,27 +340,25 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_INCLASS_NO_PURE_DECLS \
+#define AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUCapabilityDetectBPLib(); \
-	friend CAPABILITYDETECT_API class UClass* Z_Construct_UClass_UCapabilityDetectBPLib(); \
+	friend struct Z_Construct_UClass_UCapabilityDetectBPLib_Statics; \
 public: \
-	DECLARE_CLASS(UCapabilityDetectBPLib, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/CapabilityDetect"), NO_API) \
-	DECLARE_SERIALIZER(UCapabilityDetectBPLib) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(UCapabilityDetectBPLib, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CapabilityDetect"), NO_API) \
+	DECLARE_SERIALIZER(UCapabilityDetectBPLib)
 
 
-#define CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_INCLASS \
+#define AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_INCLASS \
 private: \
 	static void StaticRegisterNativesUCapabilityDetectBPLib(); \
-	friend CAPABILITYDETECT_API class UClass* Z_Construct_UClass_UCapabilityDetectBPLib(); \
+	friend struct Z_Construct_UClass_UCapabilityDetectBPLib_Statics; \
 public: \
-	DECLARE_CLASS(UCapabilityDetectBPLib, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/CapabilityDetect"), NO_API) \
-	DECLARE_SERIALIZER(UCapabilityDetectBPLib) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(UCapabilityDetectBPLib, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CapabilityDetect"), NO_API) \
+	DECLARE_SERIALIZER(UCapabilityDetectBPLib)
 
 
-#define CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_STANDARD_CONSTRUCTORS \
+#define AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCapabilityDetectBPLib(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCapabilityDetectBPLib) \
@@ -388,7 +371,7 @@ private: \
 public:
 
 
-#define CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_ENHANCED_CONSTRUCTORS \
+#define AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCapabilityDetectBPLib(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -401,32 +384,36 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCapabilityDetectBPLib); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCapabilityDetectBPLib)
 
 
-#define CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_PRIVATE_PROPERTY_OFFSET
-#define CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_26_PROLOG
-#define CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_GENERATED_BODY_LEGACY \
+#define AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_PRIVATE_PROPERTY_OFFSET
+#define AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_26_PROLOG
+#define AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_PRIVATE_PROPERTY_OFFSET \
-	CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_RPC_WRAPPERS \
-	CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_INCLASS \
-	CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_STANDARD_CONSTRUCTORS \
+	AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_PRIVATE_PROPERTY_OFFSET \
+	AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_SPARSE_DATA \
+	AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_RPC_WRAPPERS \
+	AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_INCLASS \
+	AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_GENERATED_BODY \
+#define AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_PRIVATE_PROPERTY_OFFSET \
-	CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
-	CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_INCLASS_NO_PURE_DECLS \
-	CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_ENHANCED_CONSTRUCTORS \
+	AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_PRIVATE_PROPERTY_OFFSET \
+	AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_SPARSE_DATA \
+	AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_INCLASS_NO_PURE_DECLS \
+	AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h_29_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
+template<> CAPABILITYDETECT_API UClass* StaticClass<class UCapabilityDetectBPLib>();
+
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID CapabilityDetectDemo_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h
+#define CURRENT_FILE_ID AdminProject_Plugins_CapabilityDetect_Source_CapabilityDetect_Public_CapabilityDetectBPLib_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -11,7 +11,7 @@ public class CapabilityDetect : ModuleRules
 		PublicIncludePaths.AddRange(
 			new string[] {
 				"CapabilityDetect/Public",
-                "Runtime/SynthBenchmark/Public"
+                "Runtime/SynthBenchmark/Public",
 				// ... add public include paths required here ...
 			}
 		);
@@ -20,7 +20,7 @@ public class CapabilityDetect : ModuleRules
 		PrivateIncludePaths.AddRange(
 			new string[] {
 				"CapabilityDetect/Private",
-                "Runtime/SynthBenchmark/Private"
+                "Runtime/SynthBenchmark/Private",
 				// ... add other private include paths required here ...
 			}
 		);
